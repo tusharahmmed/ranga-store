@@ -19,6 +19,7 @@ body {
   margin: auto;
   margin-top: 50px;
   border-right: none;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .search-button {
   padding: 10px 50px;
@@ -34,28 +35,47 @@ body {
   margin: auto;
   align-items: center;
   justify-content: center;
+  grid-column-gap: 15px;
+  grid-row-gap: 20px;
 }
 .single-product {
   padding: 10px;
   transition: 0.6s;
+  height: 100%;
 }
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
-  border-radius: 10px;
-  border: 1px solid cyan;
+  /* border-radius: 10px;
+  border: 1px solid cyan; */
 }
 .product-image {
   width: 150px;
   height: 150px;
+  margin: auto;
+}
+.product{
+  font-family: 'Josefin Sans', sans-serif;
+  transition: transform, .6s;
+  transition-delay: .1s;
+}
+.product:hover{
+  transform: scale(1.03);
+  
+}
+.product.h3{
+  font-weight: 600;
+  font-size: 30px;
 }
 .cart {
   width: 350px;
   /* border: 1px solid green; */
   padding: 10px;
-  box-shadow: 10px 10px 20px gray;
+  /*box-shadow: 10px 10px 20px gray;*/
+  box-shadow: 4px 0px 13px grey;
   border-radius: 5px;
   margin-right: 30px;
   position: fixed;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .cart-main {
   padding-right: 30px;
